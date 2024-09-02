@@ -34,16 +34,9 @@ for row2 in matrix2:
     print(row2)
 
 
-
-# rows_A = len(rows1)
-# cols_A = len(cols2[0])
-# rows_B = len(rows2)
-# cols_B = len(cols2[0])
-
 if cols1 != rows2:
     print("Multiplication is not possible.")
 
-# result = [[0 for _ in range(cols_B)] for _ in range(rows_A)]
 matrix3 = []
 
 for i in range(rows1):
